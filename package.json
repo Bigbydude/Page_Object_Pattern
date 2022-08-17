@@ -1,0 +1,26 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:test": "tsc && node tests/first_test.spec.js",
+    "mocha:test": "mocha --config .mocharc.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "chromedriver": "^103.0.0",
+    "mocha": "^10.0.0",
+    "selenium-webdriver": "^4.3.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/chromedriver": "^81.0.1",
+    "@types/node": "^18.0.0",
+    "@types/selenium-webdriver": "^4.1.1"
+  }
+}
